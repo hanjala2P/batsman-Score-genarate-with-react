@@ -52,3 +52,31 @@
 .border{
   border: 2px solid white;
 }
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.navUl{
+  display: flex;
+  list-style: none;
+  gap: 18px;
+}
+.navUl li:hover{
+ color: aqua;
+}
+.name{
+  color: aqua;
+}
+.container{
+  padding: 16px;
+  border: 3px solid chocolate;
+  margin-top: 12px;
+}
+.post{
+  padding:1px  16px;
+  background-color: rgba(255, 255, 255, 0.027);
+  margin-top: 12px;
+  text-align: left;
+}
